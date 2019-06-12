@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="utf-8">
+  <title>恰饭鸡</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- <link rel="shortcut icon" href="/favicon.ico"/> -->
+  <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <img src="./assets/image/logo.png" width="50" @click="handleBack">
+      <div class="desc" v-show="step == 1">
+        欢迎进入大四老学长<del>自助恰饭</del>卖书系统
+      </div>
+      <div class="desc" v-show="step == 1">
+        选择所需书-点击下一步-添加微信并发送代码
+      </div>
+    </header>
+    <article>
+      <div class="book-container" v-show="step == 1">
+        <!-- <div class="loading">
+
+        </div> -->
+        <div class="book-list">
+          <div class="item" v-for="item in bookList" :key="item.id">
+            <div class="card" :class="{active: item.selected, soldout: item.mount==0}" @click="handleCardClick(item)">
+              <img :src="item.img">
+              <div class="desc">
+                <div class="title">
+                  {{item.title}}
+                </div>
+                <div class="isbn">
+                  {{item.isbn}}
+                </div>
+                <!-- <div class="isbn">
+                  库存：{{item.mount}}
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-bar" v-show="step == 1">
+        <div class="meta">
+          已选择<span class="mount">{{selectedMount}}</span>本，预计<span class="mount">{{selectedMount * 2}}</span>元
+        </div>
+        <div class="btn" :class="{bidden: !selectedMount}" @click="getSelectList">
+          下一步
+        </div>
+      </div>
+      <div class="confirm-container" v-show="step == 2">
+        <div class="header-title">
+          您选择的 {{selectedBook.length}} 本书籍（<span @click="handleBack">返回重选？</span>）
+        </div>
+        <div class="confirm-list">
+          <div class="item" v-for="item in selectedBook">
+            <img src="https://image.ddiu.site/img/20190612172117.png">
+            <div class="desc">
+              <div class="title">
+                {{item.title}}
+              </div>
+              <div class="isbn">
+                {{item.isbn}}
+              </div>
+            </div>
+          </div>
+          <div class="placeholder" v-show="selectedBook.length == 0">
+            暂无
+          </div>
+        </div>
+        <div class="help">
+          <div class="header-title" style="margin-top: 20px;">
+            具体步骤
+          </div>
+          <p class="help-text">1. 添加老学长微信</p>
+          <p class="help-text">
+            <img src="./assets/image/qrcode.jpg" alt="">
+          </p>
+          <p class="help-text">2. 回复以下代码并支付 <span>{{selectedBook.length * 2}} 元</span></p>
+          <div class="code">
+            {{selectIdStr}}
+          </div>
+          <p class="help-text">3. 上门取书或下门收书</span></p>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <div class="text">
+        Best wishes @NJUPT
+      </div>
+      <div class="text">
+        <a href="https://blog.ddiu.site">Diu</a>
+        <a href="https://github.com/ddiu8081">Github</a>
+      </div>
+    </footer>
+  </div>
+  <script src="assets/js/vue.min.js"></script>
+  <script src="assets/js/axios.min.js"></script>
+  <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>
