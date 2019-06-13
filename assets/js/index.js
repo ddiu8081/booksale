@@ -178,6 +178,20 @@ var app = new Vue({
         isbn: '9787563539130',
         selected: false,
         mount: 1
+      }, {
+        id: 26,
+        title: 'PhotoShop CS5图形图像处理案例教程（第2版）',
+        img: 'http://image.ddiu.site/img/20190613095721.png!/fw/120',
+        isbn: '9787301249192',
+        selected: false,
+        mount: 1
+      }, {
+        id: 27,
+        title: '数字视频策划与制作',
+        img: 'http://image.ddiu.site/img/20190613095806.png!/fw/120',
+        isbn: '9787121287190',
+        selected: false,
+        mount: 1
       }
     ],
     selectedMount: 0,
