@@ -5,30 +5,30 @@ var app = new Vue({
     bookList: [
       {
         id: 1,
-        title: '大学物理实验',
-        img: 'https://image.ddiu.site/img/20190612172117.png',
-        isbn: '9787040341096',
+        title: '高等数学（上册）',
+        img: 'https://image.ddiu.site/img/20190613091358.png!/fw/120',
+        isbn: '9787040306606',
         selected: false,
         mount: 1
       }, {
         id: 2,
-        title: '大学物理实验',
-        img: 'https://image.ddiu.site/img/20190612172117.png',
-        isbn: '9787040341096',
+        title: '高等数学（下册）',
+        img: 'https://image.ddiu.site/img/20190613091443.png!/fw/120',
+        isbn: '9787040315363',
         selected: false,
         mount: 1
       }, {
         id: 3,
-        title: '大学物理实验',
-        img: 'https://image.ddiu.site/img/20190612172117.png',
-        isbn: '9787040341096',
+        title: '线性代数与解析几何',
+        img: 'https://image.ddiu.site/img/20190613091540.png!/fw/120',
+        isbn: '9787030340986',
         selected: false,
-        mount: 0
+        mount: 1
       }, {
         id: 4,
-        title: '大学物理实验',
-        img: 'https://image.ddiu.site/img/20190612172117.png',
-        isbn: '9787040341096',
+        title: '概率统计与随机过程',
+        img: 'https://image.ddiu.site/img/20190613091628.png!/fw/120',
+        isbn: '9787115287915',
         selected: false,
         mount: 1
       }, {
@@ -74,18 +74,20 @@ var app = new Vue({
       }
     },
     getSelectList () {
-      let selectedBook = [];
-      let selectId = [];
-      this.bookList.forEach((item) => {
-        if (item.selected) {
-          selectedBook.push(item);
-          selectId.push(item.id);
-        }
-      })
-      this.selectedBook = selectedBook;
-      this.selectIdStr = window.btoa(selectId.join('|'));
-      this.step = 2;
-      // console.log(this.selectIdStr);
+      if (selectedMount > 0) {
+        let selectedBook = [];
+        let selectId = [];
+        this.bookList.forEach((item) => {
+          if (item.selected) {
+            selectedBook.push(item);
+            selectId.push(item.id);
+          }
+        })
+        this.selectedBook = selectedBook;
+        this.selectIdStr = window.btoa(selectId.join('|'));
+        this.step = 2;
+        // console.log(this.selectIdStr);
+      }
     },
     handleBack () {
       this.step = 1;
