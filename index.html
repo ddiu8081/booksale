@@ -57,7 +57,7 @@
       </div>
       <div class="total-bar" v-show="step == 1">
         <div class="meta">
-          已选择<span class="mount">{{selectedMount}}</span>本，预计<span class="mount">{{selectedMount * 2}}</span>元
+          已选择<span class="mount">{{selectedMount}}</span>本，预计<span class="mount">{{selectedMount * 3}}</span>元
         </div>
         <div class="btn" :class="{bidden: !selectedMount}" @click="getSelectList">
           下一步
@@ -91,7 +91,7 @@
           <p class="help-text">
             <img src="./assets/image/qrcode.jpg" alt="">
           </p>
-          <p class="help-text">2. 回复以下代码并支付 <span>{{selectedBook.length * 2}} 元</span></p>
+          <p class="help-text">2. 回复以下代码并支付 <span>{{selectedBook.length * 3}} 元</span></p>
           <div class="code">
             {{selectIdStr}}
           </div>
