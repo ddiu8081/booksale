@@ -72,7 +72,7 @@ var app = new Vue({
         img: 'http://image.ddiu.site/img/20190613093023.png!/fw/120',
         isbn: '9787040494815',
         selected: false,
-        mount: 1
+        mount: 0
       }, {
         id: 11,
         title: '军事理论教程',
@@ -414,6 +414,13 @@ var app = new Vue({
         title: '大学体育与健康教程',
         img: 'http://image.ddiu.site/img/20190613105037.png!/fw/120',
         isbn: '9787115283658',
+        selected: false,
+        mount: 1
+      }, {
+        id: 60,
+        title: '中文版 After Effects CC影视制作全实例',
+        img: 'https://image.ddiu.site/img/20190613201056.png!/fw/120',
+        isbn: '9787502789572',
         selected: false,
         mount: 1
       }
