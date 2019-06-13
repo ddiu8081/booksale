@@ -276,6 +276,76 @@ var app = new Vue({
         isbn: '9787115360021',
         selected: false,
         mount: 1
+      }, {
+        id: 40,
+        title: '信号与系统分析',
+        img: 'https://image.ddiu.site/img/20190613102539.png!/fw/120',
+        isbn: '9787115260765',
+        selected: false,
+        mount: 1
+      }, {
+        id: 41,
+        title: '网络学术资源检索与利用（第2版）',
+        img: 'https://image.ddiu.site/img/20190613102702.png!/fw/120',
+        isbn: '9787305117831',
+        selected: false,
+        mount: 1
+      }, {
+        id: 42,
+        title: 'C#应用程序设计教程',
+        img: 'https://image.ddiu.site/img/20190613102737.png!/fw/120',
+        isbn: '9787115235275',
+        selected: false,
+        mount: 1
+      }, {
+        id: 43,
+        title: '二维动画制作基础',
+        img: 'https://image.ddiu.site/img/20190613102849.png!/fw/120',
+        isbn: '9787502768560',
+        selected: false,
+        mount: 1
+      }, {
+        id: 44,
+        title: '设计心理学',
+        img: 'https://image.ddiu.site/img/20190613103116.png!/fw/120',
+        isbn: '9787532283705',
+        selected: false,
+        mount: 1
+      }, {
+        id: 45,
+        title: '视听心理学',
+        img: 'https://image.ddiu.site/img/20190613103222.png!/fw/120',
+        isbn: '9787510047817',
+        selected: false,
+        mount: 1
+      }, {
+        id: 46,
+        title: '摄影与摄像基础教程',
+        img: 'https://image.ddiu.site/img/20190613103337.png!/fw/120',
+        isbn: '9787115238566',
+        selected: false,
+        mount: 1
+      }, {
+        id: 47,
+        title: '人机交互设计',
+        img: 'https://image.ddiu.site/img/20190613103422.png!/fw/120',
+        isbn: '9787121298479',
+        selected: false,
+        mount: 1
+      }, {
+        id: 48,
+        title: '电脑音乐制作与编配解读',
+        img: 'https://image.ddiu.site/img/20190613103520.png!/fw/120',
+        isbn: '9787030353245',
+        selected: false,
+        mount: 1
+      }, {
+        id: 49,
+        title: '网站设计与Web应用开发技术（第二版）',
+        img: 'https://image.ddiu.site/img/20190613103602.png!/fw/120',
+        isbn: '9787302400233',
+        selected: false,
+        mount: 1
       }
     ],
     selectedMount: 0,

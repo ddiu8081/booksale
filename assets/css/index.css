@@ -231,6 +231,8 @@ article {
   -moz-user-select: auto;
   -ms-user-select: auto;
   user-select: auto;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .confirm-container .help .help-text span {
