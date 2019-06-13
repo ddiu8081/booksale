@@ -195,155 +195,225 @@ var app = new Vue({
       }, {
         id: 28,
         title: '新视野大学英语：视听说教程2',
-        img: 'https://image.ddiu.site/img/20190613100625.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613100625.png!/fw/120',
         isbn: '9787513556828',
         selected: false,
         mount: 1
       }, {
         id: 29,
         title: '新视野大学英语：视听说教程3',
-        img: 'https://image.ddiu.site/img/20190613100706.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613100706.png!/fw/120',
         isbn: '9787513556835',
         selected: false,
         mount: 1
       }, {
         id: 30,
         title: '新视野大学英语：视听说教程4',
-        img: 'https://image.ddiu.site/img/20190613100743.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613100743.png!/fw/120',
         isbn: '9787513556842',
         selected: false,
         mount: 1
       }, {
         id: 31,
         title: '数据库系统概论（第5版）',
-        img: 'https://image.ddiu.site/img/20190613100958.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613100958.png!/fw/120',
         isbn: '9787040406641',
         selected: false,
         mount: 1
       }, {
         id: 32,
         title: '数字图像处理（MATLAB版）:本科教学版',
-        img: 'https://image.ddiu.site/img/20190613101055.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101055.png!/fw/120',
         isbn: '9787121201974',
         selected: false,
         mount: 1
       }, {
         id: 33,
         title: '数字图像处理与图像通信（第四版）',
-        img: 'https://image.ddiu.site/img/20190613101202.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101202.png!/fw/120',
         isbn: '9787513556842',
         selected: false,
         mount: 1
       }, {
         id: 34,
         title: '数字图像处理（第三版）',
-        img: 'https://image.ddiu.site/img/20190613101255.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101255.png!/fw/120',
         isbn: '9787560635972',
         selected: false,
         mount: 1
       }, {
         id: 35,
         title: '图像工程(上册)',
-        img: 'https://image.ddiu.site/img/20190613101358.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101358.png!/fw/120',
         isbn: '9787302277675',
         selected: false,
         mount: 1
       }, {
         id: 36,
         title: '数据结构',
-        img: 'https://image.ddiu.site/img/20190613101551.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101551.png!/fw/120',
         isbn: '9787115184023',
         selected: false,
         mount: 1
       }, {
         id: 37,
         title: '物理学（第六版）上册',
-        img: 'https://image.ddiu.site/img/20190613101752.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101752.png!/fw/120',
         isbn: '9787040399226',
         selected: false,
         mount: 1
       }, {
         id: 38,
         title: '物理学（第六版）下册',
-        img: 'https://image.ddiu.site/img/20190613101824.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101824.png!/fw/120',
         isbn: '9787040403909',
         selected: false,
         mount: 1
       }, {
         id: 39,
         title: '电工电子基础实验',
-        img: 'https://image.ddiu.site/img/20190613101948.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613101948.png!/fw/120',
         isbn: '9787115360021',
         selected: false,
         mount: 1
       }, {
         id: 40,
         title: '信号与系统分析',
-        img: 'https://image.ddiu.site/img/20190613102539.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613102539.png!/fw/120',
         isbn: '9787115260765',
         selected: false,
         mount: 1
       }, {
         id: 41,
         title: '网络学术资源检索与利用（第2版）',
-        img: 'https://image.ddiu.site/img/20190613102702.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613102702.png!/fw/120',
         isbn: '9787305117831',
         selected: false,
         mount: 1
       }, {
         id: 42,
         title: 'C#应用程序设计教程',
-        img: 'https://image.ddiu.site/img/20190613102737.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613102737.png!/fw/120',
         isbn: '9787115235275',
         selected: false,
         mount: 1
       }, {
         id: 43,
         title: '二维动画制作基础',
-        img: 'https://image.ddiu.site/img/20190613102849.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613102849.png!/fw/120',
         isbn: '9787502768560',
         selected: false,
         mount: 1
       }, {
         id: 44,
         title: '设计心理学',
-        img: 'https://image.ddiu.site/img/20190613103116.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103116.png!/fw/120',
         isbn: '9787532283705',
         selected: false,
         mount: 1
       }, {
         id: 45,
         title: '视听心理学',
-        img: 'https://image.ddiu.site/img/20190613103222.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103222.png!/fw/120',
         isbn: '9787510047817',
         selected: false,
         mount: 1
       }, {
         id: 46,
         title: '摄影与摄像基础教程',
-        img: 'https://image.ddiu.site/img/20190613103337.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103337.png!/fw/120',
         isbn: '9787115238566',
         selected: false,
         mount: 1
       }, {
         id: 47,
         title: '人机交互设计',
-        img: 'https://image.ddiu.site/img/20190613103422.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103422.png!/fw/120',
         isbn: '9787121298479',
         selected: false,
         mount: 1
       }, {
         id: 48,
         title: '电脑音乐制作与编配解读',
-        img: 'https://image.ddiu.site/img/20190613103520.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103520.png!/fw/120',
         isbn: '9787030353245',
         selected: false,
         mount: 1
       }, {
         id: 49,
         title: '网站设计与Web应用开发技术（第二版）',
-        img: 'https://image.ddiu.site/img/20190613103602.png!/fw/120',
+        img: 'http://image.ddiu.site/img/20190613103602.png!/fw/120',
         isbn: '9787302400233',
+        selected: false,
+        mount: 1
+      }, {
+        id: 50,
+        title: '通信企业管理',
+        img: 'http://image.ddiu.site/img/20190613104239.png!/fw/120',
+        isbn: '9787115374363',
+        selected: false,
+        mount: 1
+      }, {
+        id: 51,
+        title: '三维动画设计',
+        img: 'http://image.ddiu.site/img/20190613104330.png!/fw/120',
+        isbn: '9787115187697',
+        selected: false,
+        mount: 1
+      }, {
+        id: 52,
+        title: '就业指导与职业规划',
+        img: 'http://image.ddiu.site/img/20190613104420.png!/fw/120',
+        isbn: '9787115287922',
+        selected: false,
+        mount: 1
+      }, {
+        id: 53,
+        title: '微型计算机原理与接口技术',
+        img: 'http://image.ddiu.site/img/20190613104510.png!/fw/120',
+        isbn: '9787302408956',
+        selected: false,
+        mount: 1
+      }, {
+        id: 54,
+        title: '计算机图形学教程',
+        img: 'http://image.ddiu.site/img/20190613104602.png!/fw/120',
+        isbn: '9787115358004',
+        selected: false,
+        mount: 1
+      }, {
+        id: 55,
+        title: '计算机网络（第6版）',
+        img: 'http://image.ddiu.site/img/20190613104652.png!/fw/120',
+        isbn: '9787121201677',
+        selected: false,
+        mount: 1
+      }, {
+        id: 56,
+        title: '软件工程：实践者的研究方法（第8版)',
+        img: 'http://image.ddiu.site/img/20190613104752.png!/fw/120',
+        isbn: '9787111499312',
+        selected: false,
+        mount: 1
+      }, {
+        id: 57,
+        title: '新编大学语文（第4版）',
+        img: 'http://image.ddiu.site/img/20190613104852.png!/fw/120',
+        isbn: '9787513543378',
+        selected: false,
+        mount: 1
+      }, {
+        id: 58,
+        title: '电子装配实践教程',
+        img: 'http://image.ddiu.site/img/20190613104944.png!/fw/120',
+        isbn: '9787115359834',
+        selected: false,
+        mount: 1
+      }, {
+        id: 59,
+        title: '大学体育与健康教程',
+        img: 'http://image.ddiu.site/img/20190613105037.png!/fw/120',
+        isbn: '9787115283658',
         selected: false,
         mount: 1
       }
